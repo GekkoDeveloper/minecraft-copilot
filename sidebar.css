@@ -1,0 +1,88 @@
+.sidebar {
+  position: fixed;
+  top: 80px;
+  right: 0;
+  width: 600px;
+  height: 92vh;
+
+  background-color: #c6c6c6;
+  color: #474747;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 24px;
+
+  border: 4px solid #000;
+  border-radius: 2px;
+  box-shadow:
+    inset 3px 3px 0 #ffffff,
+    inset -3px -3px 0 #555555;
+
+  overflow-y: auto;
+  transform: translateX(100%);
+  transition: transform 0.2s ease, background-color 0.15s ease, box-shadow 0.15s ease;
+  z-index: 100;
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+.sidebar-close {
+  background: none;
+  border: 4px solid #555555;
+  color: #474747;
+  font-size: 24px;
+  cursor: pointer;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+
+.sidebar-close:hover {
+  color: white;
+  background-color: rgb(0, 163, 82);
+  border: 4px solid rgb(255, 255, 255);
+  box-shadow:
+    inset 3px 3px 0 #b6fd32,
+    inset -3px -3px 0 #00723d;
+}
+
+.sidebar h2 {
+  margin-top: 40px;
+  font-size: 36px;
+  color: inherit;
+}
+
+.sidebar #sidebar-text {
+  font-family: 'Cascadia Code', monospace;
+  margin-top: 12px;
+  font-size: 26px;
+  color: inherit;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.sidebar img {
+  display: block;
+  max-width: 100%;
+  margin: 16px auto;
+  border: 3px solid #000;
+  border-radius: 2px;
+  box-shadow:
+    inset 2px 2px 0 #ffffff,
+    inset -2px -2px 0 #555555;
+  image-rendering: pixelated;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.sidebar img:hover {
+  border: 4px solid #00723d;
+  transform: scale(1.02);
+  box-shadow:
+    inset 2px 2px 0 #b6fd32,
+    inset -2px -2px 0 #00723d;
+}
+
+.tree.shrink{
+  transform: translateX(-10%);
+}

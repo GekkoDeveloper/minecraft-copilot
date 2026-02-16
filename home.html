@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="tree.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <script src="sidebar.js" defer></script>
+    <script src="imageViewer.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+    <title>Minecraft Copilot</title>
+    <link rel="icon" type="image/png" href="assets/favicon.ico">
+</head>
+
+<body>
+    <div class="background"></div>
+    <header class="header">
+
+        <div class="header-left">
+            <img src="assets/logo.png" alt="MC Copilot Logo" class="logo">
+
+            <div class="header-text">
+                <h1>Minecraft Copilot</h1>
+                <p>Tu guía definitiva para comenzar en Minecraft</p>
+            </div>
+        </div>
+
+        <nav class="header-nav">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="about.html">Acerca de</a></li>
+                <li><a href="support.html">Apoyo</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="tree">
+
+        <button 
+        class="button node step1" 
+        id="primeros_pasos" 
+        data-key="primeros_pasos">
+        Primeros pasos</button>
+        <button 
+        class="button node step2" 
+        id="conseguir_madera" 
+        data-key="conseguir_madera">
+        Conseguir madera</button>
+        <button
+        class="button node step3" 
+        id="crear_herramientas" 
+        data-key="crear_herramientas">
+        Primeras herramientas</button>
+
+        <div class="step4 step-group">
+            <button 
+            class="button node" 
+            id="mejorar_herramientas"
+            data-key="mejorar_herramientas">
+            Mejorar herramientas</button>
+            <button 
+            class="button node" 
+            id="conseguir_comida"
+            data-key="conseguir_comida">
+            Conseguir comida</button>
+            <button 
+            class="button node" 
+            id="explorar"
+            data-key="explorar">
+            Explorar</button>
+        </div>
+    </div>
+
+    <aside class="sidebar" id="sidebar">
+        <button class="sidebar-close" id="closeSidebar">✕</button>
+
+        <h2 id="sidebar-title"></h2>
+        <div id="sidebar-text"></div>
+    </aside>
+
+    <div class="image-modal" id="imageModal">
+        <span class="image-close" id="imageClose">✕</span>
+        <img id="modalImage" src="" alt="">
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+INFO
+Crear información para cada nodo
+Crear todos los nodos
+
+ESTILO
+Agregar imágenes a los datos
+Cambiar header
+Implementar logo
+
+FUNCIONALIDAD
+Botón de donación
+Links a redes y Github
+Disclaimer
