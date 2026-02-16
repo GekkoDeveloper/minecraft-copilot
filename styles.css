@@ -22,13 +22,19 @@ body {
     transform: scale(1.1);
 }
 
+:root{
+    --header-height: 80px;
+}
+
+
 .header {
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     padding: 2px 12px;
-    margin-bottom: 36px;
 
     background-color: #c6c6c6;
     background-image: url(assets/dirt_texture.png);

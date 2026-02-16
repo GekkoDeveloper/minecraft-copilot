@@ -11,8 +11,8 @@
       { "type": "text", "value": "Pulsa dos veces la W o usa CTRL para correr. Usa SHIFT para agacharte. Mientras te agachas no puedes caer de los bordes." },
       { "type": "text", "value": "Pulsa E para abrir tu inventario y ver los objetos que has recogido. En el inventario también puedes fabricar objetos." },
       { "type": "image", "src": "assets/inventario.png", "alt": "inventario", "class": "clickable-image" }
-    ],
-    "image": "assets/primeros_pasos.png"
+    ]
+
   },
   "conseguir_madera": {
     "title": "Conseguir madera",
@@ -23,41 +23,53 @@
       { "type": "text", "value": "Haz tu primera mesa de crafteo con 4 tablones de cualquier madera." },
       { "type": "image", "src": "assets/fabricacion.png", "alt": "Mesa de crafteo", "class": "clickable-image" },
       { "type": "text", "value": "No necesitas aprender los crafteos de memoria, puedes consultarlos en el libro verde que ves en tu inventario" }
-    ],
-    "image": "assets/conseguir_madera.png"
+    ]
+
   },
   "crear_herramientas": {
     "title": "Crear herramientas",
     "sections": [
       { "type": "text", "value": "Con las herramientas puedes recolectar recursos más rápido y defenderte de los enemigos." },
       { "type": "text", "value": "Para crear herramientas usa la mesa de trabajo y crealas con palos y madera." }
-    ],
-    "image": "assets/crear_herramientas.png"
+    ]
+
   },
   "mejorar_herramientas": {
     "title": "Mejorar herramientas",
     "sections": [
       { "type": "text", "value": "Puedes crear herramientas más eficientes usando otros materiales." },
       { "type": "text", "value": "Intenta crear herramientas usando piedra en lugar de madera." }
-    ],
-    "image": "assets/mejorar_herramientas.png"
+    ]
+    
   },
   "conseguir_comida": {
     "title": "Conseguir comida",
     "sections": [
       { "type": "text", "value": "El medidor de la derecha indica tu hambre. Si está por debajo de cierta cantidad no podrás curarte ni correr." },
       { "type": "text", "value": "Consigue comida matando animales o cultivando plantas como trigo o zanahorias." },
-      { "type": "text", "value": "Para cultivar plantas debes arar la tierra con una azada y poner agua cerca." }
-    ],
-    "image": "assets/conseguir_comida.png"
+      { "type":"image","src":"assets/animales.png","alt":"Comida","class":"clickable-image"},
+      { "type": "text", "value": "Para cultivar plantas debes arar la tierra con una azada y poner agua cerca." },
+      { "type":"image","src":"assets/granja.png","alt":"Comida","class":"clickable-image"}
+    ]
   },
   "explorar": {
     "title": "Explorar",
     "sections": [
       { "type": "text", "value": "Explora el mundo para descubrir nuevos recursos y lugares interesantes." },
-      { "type": "text", "value": "Puedes encontrar cuevas, biomas y lugares de interés como portales o barcos hundidos." },
-      { "type": "text", "value": "Explorar puede ser complicado así que asegurate de tener las herramientas y comida necesarias." }
-    ],
-    "image": "assets/explorar.png"
+      { "type": "text", "value": "Puedes encontrar cuevas, biomas y lugares de interés como portales, barcos hundidos o aldeas" },
+      { "type": "text", "value": "Explorar puede ser complicado así que asegurate de tener las herramientas y comida necesarias." },
+      { "type": "image", "src": "assets/explorar.png", "alt": "Explorar", "class": "clickable-image" }
+    ]
+  },
+    "construir_refugio": {
+    "title": "Construir refugio",
+    "sections": [
+      { "type": "text", "value": "Construye un refugio para protegerte de los enemigos y tener un lugar seguro donde descansar." },
+      { "type": "text", "value": "Puedes usar madera, piedra o cualquier otro material que tengas a mano." },
+      { "type": "text", "value": "Lo importante no es que sea bonito, sino funcional, un lugar donde estar seguro y organizar tus recursos." },
+      { "type":"image","src":"assets/construir_refugio.png","alt":"Refugio","class":"clickable-image"},
+      { "type": "text", "value": "Asegurate de iluminar bien la zona, ya que las criaturas hostiles aparecen en la oscuridad" },
+      { "type":"image","src":"assets/iluminacion.png","alt":"Iluminación","class":"clickable-image"}
+    ]
   }
 }

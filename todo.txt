@@ -3,9 +3,9 @@ Crear información para cada nodo
 Crear todos los nodos
 
 ESTILO
-Agregar imágenes a los datos
-Cambiar header
-Implementar logo
+V Agregar imágenes a los datos
+V Cambiar header
+V Implementar logo
 
 FUNCIONALIDAD
 Botón de donación
